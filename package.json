@@ -1,0 +1,45 @@
+{
+  "name": "sg-wallet-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotatek-dev/sg-wallet-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sotatek-dev/sg-wallet-service/issues"
+  },
+  "homepage": "https://github.com/sotatek-dev/sg-wallet-service#readme",
+  "devDependencies": {
+    "@moralisweb3/common-evm-utils": "^2.11.0",
+    "@types/hapi": "^18.0.8",
+    "@types/lodash": "^4.14.191",
+    "ethers": "^5.7.2",
+    "moralis": "^2.11.0",
+    "prettier": "2.8.1",
+    "ts-node": "^10.9.1",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "dependencies": {
+    "@ethereumjs/tx": "^4.0.2",
+    "@hapi/hapi": "^21.1.0",
+    "alchemy-sdk": "^2.2.5",
+    "axios": "^1.2.2",
+    "bignumber.js": "^9.1.1",
+    "bitcoinjs-lib": "^6.1.0",
+    "dayjs": "^1.11.7",
+    "ethereum-block-by-date": "^1.4.6",
+    "fast-csv": "^4.3.6",
+    "joi": "^17.7.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "satoshi-bitcoin": "^1.0.5",
+    "web3": "^1.8.1"
+  }
+}
